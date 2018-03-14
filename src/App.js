@@ -1,7 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Rock from './components/Rock.js'
+import RockList from './components/RockList.js'
 
+let rock = {
+  name: 'stoner',
+  type: 'igneous',
+  age: 420,
+  color: 'green',
+  hardness: 'rock solid',
+}
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        {/* <Rock {...rock}/> */}
+        <h1>Welcome to Tinder 4 Rocks!</h1>
+        <RockList />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+/*
 class App extends Component {
   render() {
     return (
@@ -19,3 +43,4 @@ class App extends Component {
 }
 
 export default App;
+*/
