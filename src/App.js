@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* <Rock {...rock}/> */}
-        <h1>Welcome to Tinder 4 Rocks!</h1>
+        <h1> Welcome to Tinder 4 Rocks! </h1>
         <RockList />
       </div>
     );
