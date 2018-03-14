@@ -1,6 +1,9 @@
 import React , { Component } from 'react'
 import Rock from './Rock'
+import AddRock from './AddRock'
 
+/*
+// extract to new AddRock.js file and import the new file here
 class AddRock extends Component {
   state = {newRock: ''}
 
@@ -23,6 +26,7 @@ class AddRock extends Component {
     )
   }
 }
+*/
 
 class RockList extends Component {
   state = {
